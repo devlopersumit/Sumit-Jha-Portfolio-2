@@ -24,7 +24,7 @@ const Home = () => {
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <a
-              href="https://drive.google.com/file/d/1qo_yFAdIsXBhj6srGWoDOlV7OAL7SegE/view?usp=drive_link"
+              href="https://drive.google.com/file/d/1qo_yFAdIsXBhj6srGWoDOlV7OAL7SegE/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg:not([className*='size-'])]:size-4 shrink-0 [&_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-[#1A7C4B] text-[#1A7C4B]-foreground shadow-xs hover:bg-[#1A7C4B]/90 h-10 rounded-md px-6 has-[&_svg]:px-4 font-medium"
