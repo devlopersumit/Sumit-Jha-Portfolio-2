@@ -10,7 +10,7 @@ const Home = () => {
             <h1 className="font-heading font-black text-4xl sm:text-5xl lg:text-6xl text-foreground mb-4">
               Sumit Jha
             </h1>
-            <h2 className="font-heading font-semibold text-xl sm:text-2xl lg:text-3xl text-primary mb-6">
+            <h2 className="font-heading font-semibold text-xl sm:text-2xl lg:text-3xl text-[#1A7C4B] mb-6">
               Frontend Developer (React, TypeScript, Tailwind)
             </h2>
             <h3 className="text-lg sm:text-xl text-muted-foreground mb-8">
@@ -25,7 +25,7 @@ const Home = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <button
               data-slot="button"
-              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([className*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-primary text-primary-foreground shadow-xs hover:bg-primary/90 h-10 rounded-md px-6 has-[&gt;svg]:px-4 font-medium"
+              className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm transition-all disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg:not([className*='size-'])]:size-4 shrink-0 [&amp;_svg]:shrink-0 outline-none focus-visible:border-ring focus-visible:ring-ring/50 focus-visible:ring-[3px] aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 aria-invalid:border-destructive bg-[#1A7C4B] text-[#1A7C4B]-foreground shadow-xs hover:bg-[#1A7C4B]/90 h-10 rounded-md px-6 has-[&gt;svg]:px-4 font-medium"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ const Home = () => {
               href="https://github.com/sumitjha2003"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-[#1A7C4B] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -95,7 +95,7 @@ const Home = () => {
               href="https://linkedin.com/in/sumitjha2003"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-[#1A7C4B] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -119,7 +119,7 @@ const Home = () => {
               href="https://twitter.com/sumitjha2003"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-muted-foreground hover:text-primary transition-colors"
+              className="text-muted-foreground hover:text-[#1A7C4B] transition-colors"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
