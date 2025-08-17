@@ -11,9 +11,11 @@ const menuItems = [
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleMenuClick = (label: string, href: string) => {
     setActive(label);
+    setMobileMenuOpen(false); // Close mobile menu on selection
     const section = document.querySelector(href);
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
@@ -47,6 +49,8 @@ const Navbar = () => {
               <button
                 data-slot="button"
                 className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium transition-all h-8 rounded-md gap-1.5 px-3"
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                aria-label="Open menu"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -68,6 +72,31 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+        {/* Mobile menu below navbar on small devices */}
+        {mobileMenuOpen && (
+          <div className="absolute left-0 right-0 top-full bg-white shadow-md flex flex-col items-center md:hidden z-40">
+            {menuItems.map((item) => (
+              <button
+                key={item.label}
+                className={`w-full py-4 text-lg font-medium ${
+                  active === item.label
+                    ? "text-[#1A7C4B] underline underline-offset-4"
+                    : "text-muted-foreground hover:text-[#1A7C4B]"
+                }`}
+                onClick={() => handleMenuClick(item.label, item.href)}
+              >
+                {item.label}
+              </button>
+            ))}
+            <button
+              className="absolute top-2 right-4 text-2xl"
+              onClick={() => setMobileMenuOpen(false)}
+              aria-label="Close menu"
+            >
+              &times;
+            </button>
+          </div>
+        )}
       </nav>
     </>
   );
