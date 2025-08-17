@@ -3,22 +3,22 @@ import sumit from "../assets/updated-SJ.png";
 const About = () => {
   return (
     <>
-      <section id="about" className="py-20 px-4 sm:px-6 lg:px-8">
+      <section id="about" className="py-12 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center mb-12">
+          <h2 className="font-heading font-bold text-3xl sm:text-4xl text-center mb-10">
             About Me
           </h2>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-12">
             {/* Avatar */}
-            <div className="text-center md:text-left">
+            <div className="flex-shrink-0 flex justify-center md:justify-start w-full md:w-auto">
               <span
                 data-slot="avatar"
-                className="relative flex size-8 shrink-0 overflow-hidden rounded-full w-48 h-48 mx-auto md:mx-0 mb-6"
+                className="relative flex overflow-hidden rounded-full w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 mb-6 md:mb-0"
               >
                 <img
                   data-slot="avatar-image"
-                  className="aspect-square size-full"
+                  className="aspect-square w-full h-full object-cover"
                   alt="Sumit Jha"
                   src={sumit}
                 />
@@ -26,8 +26,8 @@ const About = () => {
             </div>
 
             {/* Description + Quick Facts */}
-            <div className="space-y-6">
-              <p className="text-lg text-muted-foreground leading-relaxed">
+            <div className="flex-1 space-y-6">
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 I'm a passionate Frontend Developer and recent graduate with
                 expertise in React, TypeScript, and Tailwind CSS. As a fresher
                 in the tech industry, I'm actively seeking remote opportunities
@@ -35,7 +35,7 @@ const About = () => {
                 collaborative environment.
               </p>
 
-              <p className="text-lg text-muted-foreground leading-relaxed">
+              <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
                 I believe in creating user-centric applications that solve
                 real-world problems. Through my personal projects and continuous
                 learning, I've developed a strong foundation in modern web
@@ -45,13 +45,13 @@ const About = () => {
               {/* Quick Facts Card */}
               <div
                 data-slot="card"
-                className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm"
+                className="bg-card text-card-foreground flex flex-col gap-4 rounded-xl border py-6 shadow-sm"
               >
-                <div data-slot="card-content" className="p-6">
-                  <h3 className="font-heading font-semibold text-xl mb-4">
+                <div data-slot="card-content" className="px-6">
+                  <h3 className="font-heading font-semibold text-lg sm:text-xl mb-3">
                     Quick Facts
                   </h3>
-                  <ul className="space-y-2 text-muted-foreground">
+                  <ul className="space-y-2 text-muted-foreground text-base">
                     <li>🎓 Self-Taught Developer &amp; Tech Enthusiast</li>
                     <li>🌍 Actively Seeking Remote Opportunities</li>
                     <li>💻 5+ Personal Projects Deployed</li>
