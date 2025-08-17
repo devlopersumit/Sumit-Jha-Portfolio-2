@@ -14,7 +14,7 @@ const Footer = () => {
             </div>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/sumitjha2003"
+                href="https://github.com/devlopersumit/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -37,7 +37,7 @@ const Footer = () => {
                 <span className="sr-only">GitHub</span>
               </a>
               <a
-                href="https://linkedin.com/in/sumitjha2003"
+                href="https://www.linkedin.com/in/sumit-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"
@@ -61,7 +61,7 @@ const Footer = () => {
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a
-                href="https://twitter.com/sumitjha2003"
+                href=" https://x.com/_sumitjha_?t=4nSWLPjfWOEhS06PoX9-Lg&s=09 "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-muted-foreground hover:text-primary transition-colors"

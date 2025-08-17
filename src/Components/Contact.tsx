@@ -80,7 +80,7 @@ const Contact = () => {
             <div data-slot="card-content" className="px-6">
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/sumitjha2003"
+                  href="https://github.com/devlopersumit/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1A7C4B] text-white hover:bg-purple-700 transition-colors"
@@ -102,7 +102,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://linkedin.com/in/sumitjha2003"
+                  href="https://www.linkedin.com/in/sumit-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1A7C4B] text-white hover:bg-purple-700 transition-colors"
@@ -125,7 +125,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://twitter.com/sumitjha2003"
+                  href=" https://x.com/_sumitjha_?t=4nSWLPjfWOEhS06PoX9-Lg&s=09 "
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-10 h-10 rounded-full bg-[#1A7C4B] text-white hover:bg-purple-700 transition-colors"
