@@ -1,3 +1,5 @@
+import sumit from "../assets/updated-SJ.png";
+
 const About = () => {
   return (
     <>
@@ -18,7 +20,7 @@ const About = () => {
                   data-slot="avatar-image"
                   className="aspect-square size-full"
                   alt="Sumit Jha"
-                  src="/sumit-profile.png"
+                  src={sumit}
                 />
               </span>
             </div>
@@ -65,5 +67,4 @@ const About = () => {
   );
 };
 
-
-export default About 
+export default About;
